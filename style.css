@@ -5,12 +5,6 @@ html {
     color: white;
 }
 
-#start:hover {
-    color: greenyellow;
-    box-shadow: 0 0 5px greenyellow;
-    transition: all 0.3s;
-}
-
 code {
     font-size: 50px;
     margin: 0px;
