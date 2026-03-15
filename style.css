@@ -1,0 +1,60 @@
+html {
+    background-color: black;
+    justify-items: center;
+    text-align: center;
+    color: white;
+}
+
+#start:hover {
+    color: greenyellow;
+    box-shadow: 0 0 5px greenyellow;
+    transition: all 0.3s;
+}
+
+code {
+    font-size: 50px;
+    margin: 0px;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#date {
+    margin: 10px auto;
+    text-align: center;
+    width: 200px;
+}
+
+#content {
+    box-sizing: border-box;
+    width: min(400px, 90vw);
+    height: 220px;
+    margin: 0 auto 20px;
+    border: 1px solid white;
+    padding: 10px;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#login input, #login button {
+    height: 30px;
+    box-sizing: border-box;
+}
+
+#login button code {
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}

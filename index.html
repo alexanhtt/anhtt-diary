@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <code id="start">Anht</code>
+        <div id="login">
+            <input style="width: 150px;" type="password" id="pass" placeholder="Nhập mật khẩu">
+            <button style="width: auto;" onclick="login()"><code>OK</code></button>
+        </div>
+
+        <div id="app" class="hidden" style="display: none;">
+            <div style="flex: 1;">
+                <input type="date" id="date" onchange="loadData()" class="hidden" style="display: none;">
+                <div id="content" class="hidden" style="display: none;"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
